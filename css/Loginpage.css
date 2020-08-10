@@ -1,0 +1,73 @@
+body
+{
+    width:1024px;
+    height:609px;
+    background-image:linear-gradient(120deg,rgb(14, 238, 201),rgb(231, 75, 13));
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.container
+{
+    width:25%;
+    min-height:75%;
+    background-color:rgb(243, 233, 218);
+    position:absolute;
+    top:60px;
+    right:500px;
+    border-radius:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.container h1
+{
+    margin:10px;
+    padding:10px;
+    font-size:30px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom:1px solid black;
+
+}
+.container form
+{
+    margin:20px;
+    padding:10px;
+}
+.container form label
+{
+    font-size:20px;
+
+    
+}
+.container form input
+{
+    margin:5px;
+    width:90%;
+    padding:10px;
+    border-radius:20px;
+
+}
+.container form input:hover
+{
+    background:#ddd;
+}
+select
+{
+    margin:10px 1px;
+    padding:10px;
+    border-radius:20px;
+}
+.container form input[type="checkbox"]
+{
+    margin-left:20px;
+    padding:0px;
+    width:auto
+    
+}
+.container form input[type="reset"],.container form input[type="submit"]
+{
+    margin:10px
+    padding:0px;
+    width:auto
+
+}
